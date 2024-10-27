@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    width: 100%;
+    
+    background-size: cover; /* width height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Add this line to make it a column layout */
+}
+.container{
+    display: flex;
+    width: 90%;
+    /* height: 100%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    
+
+}
+.searchContainer{
+    background-color: lightblue;
+    width: 25%;
+}
+.container1 {
+    background-color: #eff3f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    border-radius: 5px;
+    display: grid;
+    text-align: center;
+    /* margin-top: 20px; Add margin-top to create space between header and container */
+}
+
+#currentWeather{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 30px;
+    width: 50px;
+    margin: 25px;
+    margin-top: 50px;
+}
+#forecastContainer{
+    margin-top: 35px;
+    margin: 25px;
+    flex: 3;
+    font-size: 13px;
+    
+}
+#Today-Highlights{
+    margin-top: 50px;
+    margin-left: -560px;
+}
+
+
+.location-container {
+    padding: 20px;
+    border-radius: 10px;
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.current-weather {
+    margin-bottom: 20px;
+}
+
+.forecast-container {
+    display: flex;
+    overflow-x: auto;
+}
+.tempSearch{
+    font-size: 60px;
+    margin-top: 20px;
+    margin: 0px;
+}
+
+
+.forecast-card {
+    flex: 0 0 auto;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 104px;
+    text-align: center;
+    height: 160px;
+    margin-left: 20px;
+}
+
+.imgDays{
+    height: 40%;
+}
+.todayImg{
+    margin-left: 50px;
+    height: 160px;
+}
+
+
+
+.todayshighlights{
+    border-radius: 20px;
+    margin: 10px;
+    width: 245px;
+    
+}
+.highLights{
+    margin-left: -130px;
+    color: rgb(189, 189, 189);
+}
+.highLightsHL{
+    margin-left: -100px;
+    color: rgb(189, 189, 189);
+
+}
+.highLight{
+    margin-left: -55px;
+    color: rgb(189, 189, 189);
+}
+
+
+.highLightsBottom{
+    margin-left: -150px;
+    color: rgb(56, 56, 56);
+}
+
+.highLightsBottoms{
+    margin-left: -170px;
+    color: rgb(56, 56, 56);
+}
+
+.highLightsBottomHB{
+    margin-left: -106px;
+    color: rgb(56, 56, 56);
+}
+
